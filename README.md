@@ -1,4 +1,4 @@
-# ML_PROJECT
+# FOOD QUALITY DETECTION SYSYTEM
 FOOD QUALITY DETECTION SYSYTEM:
 This project classifies fruits as Fresh or Rotten using EfficientNet-B0. It includes the trained model and a Streamlit web interface.
 
