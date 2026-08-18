@@ -78,7 +78,7 @@ st.markdown("""
 # LOAD MODEL
 @st.cache_resource
 def load_trained_model():
-    return load_model(r"C:\Users\alish\Downloads\FOOD_QUALITY_DETECTION\model_2_1_26_2.h5")
+    return load_model(r"model_2_1_26_2.h5")
 
 model = load_trained_model()
 
@@ -86,7 +86,7 @@ model = load_trained_model()
 # =========================================================
 @st.cache_data
 def load_history():
-    with open(r"C:\Users\alish\Downloads\FOOD_QUALITY_DETECTION\history_combined.pkl", "rb") as f:
+    with open(r"history_combined.pkl", "rb") as f:
         return pickle.load(f)
 
 history = load_history()
