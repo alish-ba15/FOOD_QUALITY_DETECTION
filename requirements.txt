@@ -1,6 +1,6 @@
 streamlit>=1.30,<2
-# TensorFlow 2.15 provides the Keras API used to load the saved HDF5 model.
-tensorflow==2.15.1
+# TensorFlow 2.16 uses Keras 3, which is more compatible with models saved by newer Keras releases.
+tensorflow==2.16.1
 numpy>=1.23.5,<2
 Pillow>=9.0
 matplotlib>=3.7
